@@ -31,7 +31,7 @@ tags: JVM字节码
 
 ##### 首先会将当前这个实例放入局部变量表
 
-##### <img src="http://qqcxdmsd8.hn-bkt.clouddn.com/image-20210323224206973.png" style="zoom: 50%;" />
+##### <img src="http://www.caijy.top/image-20210323224206973.png" style="zoom: 50%;" />
 
 ##### 解析字节码
 
@@ -62,6 +62,4 @@ tags: JVM字节码
   >12 iload_2
   >13 iadd     //将栈顶2个int类型的值相加并将结果压入栈顶
   >14 ireturn    //当前方法返回int
-
-![image-20210405214141423](https://qqcxdmsd8.hn-bkt.clouddn.com/image-20210405214141423.png)
 

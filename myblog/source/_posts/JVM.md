@@ -8,11 +8,11 @@ tags: JVM
 
 ### JVM内存结构
 
-<img src="http://qqcxdmsd8.hn-bkt.clouddn.com/image-20210318221702882.png" alt="image-20210318221702882" style="zoom: 80%;" />
+<img src="http://www.caijy.top/image-20210318221702882.png" alt="image-20210318221702882" style="zoom: 80%;" />
 
 #### 运行时数据区
 
-# ![image-20210321125505092](http://qqcxdmsd8.hn-bkt.clouddn.com/image-20210321125505092.png)
+# ![image-20210321125505092](http://www.caijy.top/image-20210321125505092.png)
 
 ##### 程序计数器
 

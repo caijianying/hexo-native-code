@@ -89,10 +89,9 @@ tags: JVM
 >     >对于运行时常量池，除了保存Class文件中描述的符号引用外，还会把由符号引用翻译出来的直接引用也存储在运行时常量池中。典型的例子就是 String类的intern()方法，下面是示例。
 >     >
 >     >1. 直接用双引号声明出来的 String对象 会直接分配在存储在字符串常量池里面。，`"" `就相当于` "".intern();`
->     >
 >     >2. 如果不是用双引号声明的 String对象，可以调用String对象的intern方法。intern方法会检查字符串常量池里面是否存在当前字符串，如果不存在就会把该字符串存储在常量池里，存在则直接返回该字符串的引用。
 >     >
->     >   ```java
+>     >  ```java
 >     >   /*
 >     >    * 常量池中的串池StringTable[],是一个哈希表
 >     >    * String intern的插入逻辑：先判断是否这个值 没有的话就插入
@@ -102,14 +101,14 @@ tags: JVM
 >     >           String a = "ab";//StringTable  ["ab"]
 >     >           String ab = "a"+"b";//本质是使用StringBuilder拼接，此时串池中已有ab 直接引用
 >     >           System.out.println(a == ab);// true
->     >   
->     >           String s = new String("1");//执行后 s会被放入堆中
+>     > 
+>     >             String s = new String("1");//执行后 s会被放入堆中
 >     >           String intern = s.intern();//串池中为 ["ab"],没有"1"所以需要加入串池。执行完 ["ab","1"]
 >     >           String s2 = "1";
 >     >           System.out.println(s == s2);// false s在堆中 s2引用的是串池中的值 不相等
 >     >           System.out.println(intern == s2);// true
->     >   
->     >           String s3 = new String("X") + new String("Y");//执行完 s3会放入堆中
+>     > 
+>     >             String s3 = new String("X") + new String("Y");//执行完 s3会放入堆中
 >     >           s3.intern();//StringTable中没有"XY"，插入后为  ["ab","1","XY"]
 >     >           String s4 = "XY";
 >     >           System.out.println(s3 == s4);// true

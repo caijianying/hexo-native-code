@@ -1,9 +1,10 @@
 ---
 title: PDF发票OCR识别
-date: 2021-03-23 22:52:21
-categories: 
-- OCR识别
+categories:
+  - OCR识别
 tags: OCR识别
+abbrlink: 4a4871b6
+date: 2021-03-23 22:52:21
 ---
 #### PDF发票OCR识别
 

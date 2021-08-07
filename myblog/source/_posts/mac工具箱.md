@@ -1,8 +1,9 @@
-
+---
 title: mac工具箱
 categories:
   - mac
 tags: mac
+abbrlink: 40c6ad79
 date: 2021-06-28 22:52:21
 ---
 

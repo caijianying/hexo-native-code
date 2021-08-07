@@ -1,9 +1,10 @@
 ---
 title: JVM
-date: 2021-03-23 22:52:21
-categories: 
-- JVM
+categories:
+  - JVM
 tags: JVM
+abbrlink: 66c016fb
+date: 2021-03-23 22:52:21
 ---
 
 ### JVM内存结构

@@ -1,10 +1,11 @@
 ---
 title: Jclasslib分析字节码
-date: 2021-03-24 22:52:21
-categories: 
-- JVM
-- 分析字节码
+categories:
+  - JVM
+  - 分析字节码
 tags: JVM字节码
+abbrlink: 9f29f421
+date: 2021-03-24 22:52:21
 ---
 
 #### 下载及使用

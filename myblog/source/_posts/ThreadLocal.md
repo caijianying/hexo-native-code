@@ -1,9 +1,10 @@
 ---
 title: ThreadLocal不简单
-date: 2021-03-24 22:52:21
-categories: 
-- ThreadLocal
+categories:
+  - ThreadLocal
 tags: ThreadLocal与弱引用
+abbrlink: a653477f
+date: 2021-03-24 22:52:21
 ---
 ##### 弱引用介绍
 

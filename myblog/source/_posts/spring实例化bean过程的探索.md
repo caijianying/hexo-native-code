@@ -1,10 +1,10 @@
+---
 title: spring实例化bean的过程探索(上)
 categories:
-
   - spring 5.1.X源码
 tags: spring源码
+abbrlink: '1e622231'
 date: 2021-07-26 22:52:21
-
 ---
 
 # 准备工作

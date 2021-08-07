@@ -1,10 +1,11 @@
 ---
 title: Hexo 搭建博客框架
-date: 2021-02-28 22:52:21
-categories: 
-- 博客
-- 博客搭建
+categories:
+  - 博客
+  - 博客搭建
 tags: 博客
+abbrlink: eb92c116
+date: 2021-02-28 22:52:21
 ---
 [官网](https://hexo.io/zh-cn/docs/)
 1.安装nodeJs，查看版本`node --version`，Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本

@@ -118,7 +118,7 @@ date: 2021-03-24 22:52:21
           }
   ```
 
-  可以看出这个Entry继承了一个弱引用，我们传入的k(即`this`)被`super(k);`调用。我们跟进到`WeakReference`的**顶级父类**`Reference`，k成了弱引用。
+  可以看出这个Entry继承了一个弱引用，我们传入的k(即`this`)被`super(k);`调用。我们跟进到`WeakReference`的**顶级父类**`Reference`，k这个强引用就被关联上了。 
 
   ```java
    Reference(T referent) {
